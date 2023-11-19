@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <h2>Expense Tracker</h2>    
+    <h2>Kirim-chiqimlar hisoblovchisi</h2>    
   </div>
 </template>
