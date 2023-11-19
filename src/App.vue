@@ -79,11 +79,13 @@ const saveTransactionsToLocalStorage = () => {
 </script>
 
 <template>
-  <Header/>
-  <div class="container">
-    <Balance :total="total"/>
-    <IncomeExpense :income="+income" :expense="+expense"/>
-    <TransactionList :transactions="transactions" @transactionDeleted="handleTransactionDeleted"/>
-    <AddTransaction @transactionSubmitted="handleTransactionSubmitted"/>
+  <div style="padding: 15px;">
+    <Header/>
+    <div class="container">
+      <Balance :total="total"/>
+      <IncomeExpense :income="+income" :expense="+expense"/>
+      <TransactionList :transactions="transactions" @transactionDeleted="handleTransactionDeleted"/>
+      <AddTransaction @transactionSubmitted="handleTransactionSubmitted"/>
+    </div>
   </div>
 </template>
