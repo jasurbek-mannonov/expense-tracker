@@ -79,7 +79,7 @@ const saveTransactionsToLocalStorage = () => {
 </script>
 
 <template>
-  <div style="padding: 15px;">
+  <div style="margin: 15px;">
     <Header/>
     <div class="container">
       <Balance :total="total"/>
